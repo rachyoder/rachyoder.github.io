@@ -1,0 +1,118 @@
+/*default site settings*/
+body, html {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #ccffcc;
+    width: 80%;
+}
+
+html {
+    font-size: 10px;
+}
+
+/*Font Settings*/
+
+h1,h2,h3 {
+    font-family: 'Raleway', Arial, sans-serif;
+}
+
+h1 {
+    font-size: 5em;
+    text-align: center;
+    color: white;
+    text-shadow: 0.1em 0.1em 0.2em rgb(223, 107, 126);
+}
+
+h2 {
+    font-size: 3em;
+}
+
+h3 {
+    font-size: 2em;
+}
+
+p {
+    font-family: 'Raleway', Arial, sans-serif;
+    font-size: 1.4em;
+}
+
+ul li {
+    font-family: 'Raleway', Arial, sans-serif;
+}
+
+/*Header Settings*/
+
+.page header {
+    margin-bottom: 5em;
+}
+
+
+/*Page Structure*/
+
+.page {
+    margin: 10em 10em 10em 15em;
+}
+
+.page main {
+    width: 80em;
+    float: left;
+    border: 0.5em solid rgba(128,255,128,0.2);
+    background-color: rgba(128,255,128,0.3);
+    border-radius: 1.5em;
+    padding: 2em;
+    padding-bottom: 4em;
+    margin-right: 1em;
+}
+
+.page main h2 {
+    text-align: left;
+    color: white;
+    text-shadow: 0.1em 0.1em 0.2em rgb(223, 107, 126);
+}
+/*Aside Settings*/
+
+.content aside .box{
+    width: 40em;
+    float: right;
+    border: 0.5em solid rgba(128,255,128,0.2);
+    background-color: rgba(128,255,128,0.3);
+    border-radius: 1.5em;
+    padding-left: 2em;
+    padding-right: 2em;
+    margin-bottom: 1em;
+}
+
+.content aside h3 {
+    color: white;
+    text-shadow: 0.1em 0.1em 0.2em rgb(223, 107, 126);
+    text-align: center;
+    font-size: 2.5em;
+}
+.content aside img{
+    border-radius: 50%;
+    max-height: 15em;
+    border: 0.4em solid white;
+    box-shadow: 0.2em 0.2em 0.8em grey;
+    margin-left: 12em;
+    /*margin-right: 20em;*/
+
+}
+.content aside p {
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+}
+
+.content aside ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.content aside ul li {
+    text-align: center;
+    font-size: 1.3em;
+    padding-bottom: 2em;
+}
