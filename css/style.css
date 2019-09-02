@@ -43,6 +43,10 @@ ul li {
     font-family: 'Raleway', Arial, sans-serif;
 }
 
+hr {
+    color: rgb(223, 107, 126)
+}
+
 /*Header Settings*/
 
 .page header {
