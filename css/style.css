@@ -5,8 +5,10 @@ body, html {
 }
 
 body {
-    background-color: #ccffcc;
-    width: 80%;
+    background-color: #ffffff;
+    background-image: url("/img/snowy-range-bw1800w.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
 }
 
 html {
@@ -15,15 +17,16 @@ html {
 
 /*Font Settings*/
 
-h1,h2,h3 {
+h1,h2,h3,li {
     font-family: 'Raleway', Arial, sans-serif;
 }
 
-h1 {
-    font-size: 5em;
+h1.home {
+    font-family: 'Lemon', cursive;
+    font-size: 7em;
     text-align: center;
     color: white;
-    text-shadow: 0.1em 0.1em 0.2em rgb(223, 107, 126);
+    text-shadow: 0.1em 0.1em 0.2em #333333, 0.1em 0.1em 0.2em #333333;
 }
 
 h2 {
@@ -39,59 +42,98 @@ p {
     font-size: 1.4em;
 }
 
-ul li {
-    font-family: 'Raleway', Arial, sans-serif;
-}
-
-hr {
-    color: rgb(223, 107, 126)
+nav ul li {
+    font-size: 2em;
 }
 
 /*Header Settings*/
 
-.page header {
-    margin-bottom: 5em;
+header {
+    margin: 0;
+    padding: 0;
+    background-image: url("/img/snowy-range-bw1800w.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
+/*Navigation Bar*/
+header nav ul {
+    margin-top: 0;
+    padding: 0;
+    list-style-type: none;
+    overflow: hidden;
+    background-color: #333333;
+}
+
+header nav ul li {
+    float: left;
+}
+
+header nav ul li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 0.8em;
+    text-decoration: none;
+}
+header nav ul li a:hover {
+    background-color: #111111;
+}
+
+header h1 {
+    margin-bottom: 1em;
+}
 
 /*Page Structure*/
 
 .page {
-    margin: 10em 10em 10em 15em;
+    position: relative;
+    min-height: 100vh;
 }
 
 .page main {
-    width: 80em;
+    display: flex;
+}
+
+/*Box Setup for Blog Posts*/
+.page main article {
+    width: 100em;
     float: left;
-    border: 0.5em solid rgba(128,255,128,0.2);
-    background-color: rgba(128,255,128,0.3);
+    border: 0.5em solid rgba(179, 217, 255, 0.8);
+    background-color: rgb(179, 217, 255, 0.7);
     border-radius: 1.5em;
     padding: 2em;
     padding-bottom: 4em;
     margin-right: 1em;
+    margin-left: 5em;
+    margin-bottom: 4em;
+    flex: 4;
 }
 
-.page main h2 {
+.page main article h2 {
     text-align: left;
     color: white;
-    text-shadow: 0.1em 0.1em 0.2em rgb(223, 107, 126);
+    text-shadow: 0.1em 0.1em 0.2em #333333;
 }
 /*Aside Settings*/
 
 .content aside .box{
-    width: 40em;
+    width: 30em;
     float: right;
-    border: 0.5em solid rgba(128,255,128,0.2);
-    background-color: rgba(128,255,128,0.3);
+    position: relative;
+    border: 0.5em solid rgba(179, 217, 255, 0.8);
+    background-color: rgba(179, 217, 255, 0.7);
     border-radius: 1.5em;
     padding-left: 2em;
     padding-right: 2em;
-    margin-bottom: 1em;
+    margin-right: 5em;
+    margin-left: 1em;
+    flex: 1;
 }
 
 .content aside h3 {
     color: white;
-    text-shadow: 0.1em 0.1em 0.2em rgb(223, 107, 126);
+    text-shadow: 0.1em 0.1em 0.2em #333333;
     text-align: center;
     font-size: 2.5em;
 }
@@ -99,24 +141,92 @@ hr {
     border-radius: 50%;
     max-height: 15em;
     border: 0.4em solid white;
-    box-shadow: 0.2em 0.2em 0.8em grey;
-    margin-left: 12em;
+    box-shadow: 0.2em 0.2em 0.8em #333333;
+    float: center;
+    margin-left: 7em;
+    margin-right: 7em;
     /*margin-right: 20em;*/
 
 }
 .content aside p {
-    padding-left: 0.5em;
-    padding-right: 0.5em;
+    padding: 1em 0.5em 1em 0.5em;
 }
 
-.content aside ul {
+.content {
+    padding-bottom: 2.5em;
+}
+/*Footer Settings*/
+
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 2.5em;
+}
+
+footer p {
+    font-family: 'Raleway', Arial, sans-serif;
+    font-size: 1.4em;
+    color: #ffffff;
+    text-shadow: 0.1em 0.1em 0.2em #333333;
+    float: right;
+    padding-right: 2.5em;
+    padding-bottom: 0.5em;
+}
+
+/*----------PROJECTS PAGE------------*/
+
+
+/*Center Column*/
+
+.page main article.center {
+    border: 0.2em solid rgba(179, 217, 255, 0.8);
+    background-color: rgba(179, 217, 255, 0.7);
+    float: center;
+    border-radius: 1.5em;
+    padding: 2em;
+    padding-bottom: 4em;
+    margin: 5em 20em 4em 20em;
+
+}
+
+article.center h1 {
+    font-size: 3em;
+    color: white;
+    text-shadow: 0.1em 0.1em 0.2em #333333;
+    text-align: center;
+    margin-top: 0.2;
+    margin-bottom: 0.4;
+}
+
+article.center p {
+    text-align: center;
+}
+
+article.center ul {
+    text-align: center;
     list-style-type: none;
     margin: 0;
     padding: 0;
 }
 
-.content aside ul li {
-    text-align: center;
-    font-size: 1.3em;
-    padding-bottom: 2em;
+article.center ul li {
+    border: 0.1em solid #66b3ff;
+    background: #66b3ff;
+    border-radius: 1.5em;
+    padding: 2em;
+    margin: 2em;
+    margin-left: 10em;
+    margin-right: 10em;
+}
+
+article.center ul li a {
+    color: white;
+    font-size: 2em;
+    text-decoration: none;
+    padding: 0.8em;
+}
+
+article.center ul li a:hover {
+    color: #000000;
 }
