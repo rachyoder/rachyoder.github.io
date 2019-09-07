@@ -174,9 +174,6 @@ footer p {
     padding-bottom: 0.5em;
 }
 
-/*----------PROJECTS PAGE------------*/
-
-
 /*Center Column*/
 
 .page main article.center {
@@ -202,6 +199,7 @@ article.center h1 {
 article.center p {
     text-align: center;
 }
+/*----------PROJECTS PAGE------------*/
 
 article.center ul {
     text-align: center;
@@ -216,8 +214,8 @@ article.center ul li {
     border-radius: 1.5em;
     padding: 2em;
     margin: 2em;
-    margin-left: 10em;
-    margin-right: 10em;
+    margin-left: 30em;
+    margin-right: 30em;
 }
 
 article.center ul li a {
@@ -230,3 +228,6 @@ article.center ul li a {
 article.center ul li a:hover {
     color: #000000;
 }
+
+/*---------LINKS PAGE-----------*/
+
