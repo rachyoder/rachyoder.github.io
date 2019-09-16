@@ -199,7 +199,7 @@ article.center h1 {
 article.center p {
     text-align: center;
 }
-/*----------PROJECTS PAGE------------*/
+/*----------LINKS PAGE------------*/
 
 article.center ul {
     text-align: center;
@@ -229,5 +229,16 @@ article.center ul li a:hover {
     color: #000000;
 }
 
-/*---------LINKS PAGE-----------*/
+/*---------PROJECTS PAGE-----------*/
 
+dl dt {
+    font-size: 2em;
+    text-align: center;
+    margin-top: 1em;
+    margin-bottom: 0.5em;
+}
+
+dl dd {
+    font-size: 1.2em;
+    padding-right: 1em;
+}
