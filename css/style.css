@@ -5,10 +5,10 @@ body, html {
 }
 
 body {
-    background-color: #ffffff;
-    background-image: url("/img/snowy-range-bw1800w.jpg");
+    background-color: #7481a5;
+    /* background-image: url("/img/snowy-range-bw1800w.jpg");
     background-attachment: fixed;
-    background-repeat: no-repeat;
+    background-repeat: no-repeat; */
 }
 
 html {
@@ -53,7 +53,7 @@ header {
     padding: 0;
     background-image: url("/img/snowy-range-bw1800w.jpg");
     background-repeat: no-repeat;
-    background-attachment: fixed;
+    background-attachment: scroll;
 }
 
 /*Navigation Bar*/
@@ -81,7 +81,7 @@ header nav ul li a:hover {
 }
 
 header h1 {
-    margin-bottom: 1em;
+    padding-bottom: 2em;
 }
 
 /*Page Structure*/
@@ -199,7 +199,7 @@ article.center h1 {
 article.center p {
     text-align: center;
 }
-/*----------PROJECTS PAGE------------*/
+/*----------PROJECTS and LINKS PAGE------------*/
 
 article.center ul {
     text-align: center;
@@ -229,5 +229,4 @@ article.center ul li a:hover {
     color: #000000;
 }
 
-/*---------LINKS PAGE-----------*/
 
