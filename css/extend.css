@@ -1,0 +1,24 @@
+.masthead {
+	height: 100vh;
+	min-height: 500px;
+	background-image: url("../img/state-route1800w.jpg");
+	background-size: cover;
+	background-position: bottom-left;
+	background-repeat: no-repeat;
+}
+#bgColor {
+    background-color: #ccccff
+}
+#opacity {
+    opacity: 0.8;
+}
+#lemonFont {
+    font-family: 'Lemon', cursive;
+}
+#ralewayFont {
+    font-family: 'Raleway', sans-serif;
+}
+#scroll {
+    max-height: 250px;
+    overflow-y: auto;
+}
