@@ -1,44 +1,69 @@
 {
-    "posts": {
-        "week_eight_post": {
+    "posts": [
+        {
+            "title": "Week Thirteen",
+            "date": "November 17, 2019",
+            "content": "I'm starting to notice a trend in my posts. Every week feels like the hardest week yet. This week was especially gruelling in terms of scope. We were assigned with cloning a web app like twitter or gmail (I chose twitter myself). This project was heavily focused on Agile development and using MoSCoW to help organize the process with vertical slices. I was rather confident I could complete this project going into it, however everyone in our class got hung up on the same thing: Authorization. This is a rather simple in Laravel, as you can just use the default blades available. However the process of using React as a front-end with this makes things a lot more complicated. Long story short is nobody managed to complete this project. However several important lessons were learned from this, namely vertical slices. This makes completing stories a lot easier and allows better focus on your tasks. React and Laravel together are a force to be reckoned with. Having extensive control of both the front-end and back-end is very useful. I'm really glad we did this project, even if it didn't turn out exactly as planned. It makes me feel more confident going into the final project, having experience with full-stack development. I gotta say I'm ready to start on my project."
+        },
+        {
+            "title": "Week Twelve",
+            "date": "November 11, 2019",
+            "content": "This Laravel project is probably the most challenging thing I've worked on yet. I wasn't suprised to learn that nobody was expected to complete it, and was very pleased to say that I did complete it. This was a big learning experience for me, because up until now I've mostly gotten my projects done with time to spare, allowing me to work on the Should haves and Could haves of my MoSCoW design. But we only had three or four days to work on this project, so it was a considerable time crunch. Another big takeaway was working based off of user stories from our personas. It made it easier to track tasks and stay on target for completeing this project. I have to say I'm a big fan of laravel, it's very powerful. Being able to easily write out so much backend without having to creeate it from scratch really does help with cutting down on code. After struggling so much with the CRUD principles in the PHP project, being able to simply make them in the controller was a breeze. It's funny to think back to the start of the bootcamp, which is only a couple of months ago, and see how far I've come and what I've learned. Not only has my ability to program grown, but so has my ability to understand and read it. At the start I have to admit I wasn't that concerned with things like optimization and DRY coding, but after just a little time in the bootcamp I came to understand the importance of it and why we do it. Now it's something I try and work toward on every project."
+        },
+        {
+            "title": "Week Eleven",
+            "date": "November 4, 2019",
+            "content": "We've spent the past week pushing through PHP, and also touched breifly on Laravel. I gotta say, it's a lot easier to learn your second language than your first, but there are still some pitfalls. I feel the switch with the syntax was relatively painless, but the real challenge for me was applying <abbr title='Create Read Update Delete'>CRUD</abbr> principles to our PHP project. However in the end this didn't matter too much because we're already moving onto laravel, which makes that so much easier (Thanks hindsight!). I did learn a lot about server-side programming, namely how powerful it is, and all that you can do with it as well. Being able to create your own API calls and make your own JSON data is very useful and it is definitely starting to scratch that itch for me. I know I don't fully understand it yet but I am eager to learn more and put all of this into practice. More coming next week when we start Laravel!"
+        },
+        {
+            "title": "Week Ten",
+            "date": "October 28, 2019",
+            "content": "Well, we are now halfway through the bootcamp officially, hard to believe how fast time has been flying by. This week we finished our React project, the React Restaurant, and I have to say I really like React. It took some getting used to, but it's so convienent for the front-end side of development, when you're able to reuse components to save on repetitive code. The thing I struggle most with React is working out the back-end side of the logic, like for example the refactoring of all our existing projects. I think it's going to take me working through the refactoring before that really starts to click. But the beauty of this project is now how easily I can create reusable components to preform basic tasks. Like generating a grid of tiles, which we had to do three seperate times with our past projects. All in all I'm a big fan of React and I'm ready to keep using it from here on out. Next up: PHP."
+        },
+        {
+            "title": "Week Nine",
+            "date": "October 21, 2019",
+            "content": "This week I'm going to talk about <abbr title='Command Line Interface'>CLIs</abbr>, and my thoughts toward them. CLIs are intimidating right off the bat, purely because people (myself included) are used to a visual interface to work with, whereas a CLI is entirely text-based. So far we've used this for setting up directories and installing packages from npm, as well as playing around with bash scripts, and not much else. However, from this experience I can already see the practicality of using a CLI, as it can help reduce repetitive tasks like setting up the same file structure when we make projects. One question I was asked to answer this week was if I would build a CLI, and what would it do. I may be misinterpreting this question but my answer would be creating custom bash scripts to take out some of the repetitve tasks, like whenever I set up a project I use the same file layout, so creating that would be rather simple. However other usages for it are, as of right now, lost on me. However it has started to scratch that itch for me, and I definitely want to dive in deeper with this and learn more."
+        },
+        {
             "title": "Week Eight",
             "date": "October 13, 2019",
             "content": "With the conclusion of Week Four (Week Eight if you count the pre work) we are now officially done with vanilla JS. Next up is React and NPM, and I must say I'm pretty excited. From what I've heard it will be challenging but it saves so much time on things we've already done in vanilla. It will be nice to try something new, although I'm not sure I fully understand how it works yet, so that's probably a good place to start. Also in other news, I got my machine learning project into a working state! <a href='https://rachyoder.github.io/tic-tac-toe-app/'>(See Here)</a> This was such a fun project to work on, and I'm glad I decided to do it. I learned a lot about working with objects and creating large numbers of states with little differences between them. There are still a few bugs to work out, but I'll patch those out soon enough. It was just a relief to get it working in time for demo day. Going forward I'm definitely making it a priority to hit those strech goals."
         },
-        "week_seven_post": {
+        {
             "title": "Week Seven",
             "date": "October 7, 2019",
             "content": "Week Three has come and gone and boy was it stressful. We were finishing the fourth of the JavaScript projects we have been working on and it ended in a bit of a time crunch. I didn't quite get done in time, but I do intend to finish it Monday. I feel I've learned so much in such a short time. JavaScript is an extremely useful language, but it certainly has it's quirks. Object-oriented programming is very confusing and I still struggle to wrap my head around it. I think it will just take some practice to learn it, but it can still be frustrating. That is definitely something I want to focus on in the coming week for sure. One unfortunate downside is my lack of time to work on my stretch goal project. I'm trying to build a learning AI for tic-tac-toe, but haven't had much time to work on it because of the other projects currently going on. I need to make a bigger push on that, as I want it done by the end of next week. Otherwise, things are looking good so far. I'm excited to start with React soon, and see how that works."
         },
-        "week_six_post": {
+        {
             "title": "Week Six",
             "date": "September 29, 2019",
             "content": "Well that's week two out of the way. (Week six if you count the pre-work.) This week was all about Javascript, and I gotta say, I feel like I've made a huge jump in terms of what I knew at the start of the week compared to what I know now at the end. We had four projects to complete over the course of this week and next week, all involving vanilla JavaScript. As of writing this I've completed two of them and submitted the third for review, so I feel like I'm making good progress. One of the biggest learning experiences for me was how I paced myself. The third project, the calculator, is a great example for this. I had been dreading this one since the start of the week, but when the time came to complete it things went rather smooth. By this point I had learned to take it in chunks. I started by setting up the UI, and when I had finished that I moved onto responsive inputs, then the logic, etc. This way I wasn't jumping around feeling unfocused and trying to get everything done at the same time, and made it a lot easier to finish. I also made a bigger push to write <abbr title='Don't Repeat Yourself'>DRY</abbr> code. It pushed me to think outside the box, and made what I wrote easier to understand. I feel this is a hugely important aspect to keep in mind, espcially moving forward, as it is benefical for anyone involved, including myself. As long as I get into the habit of these good coding practices, all should be well."
         },
-        "week_five_post": {
+        {
             "title": "Week Five",
             "date": "September 22, 2019",
             "content": "Well this concludes the first week on campus at Awesome Inc! This week was mainly focused on one project, creating a campaign site for a candidate running for Constable. I really enjoyed working on this project, it was a lot of fun. This was probably the first design-heavy project we've worked on, aside from the blog of course. Now I do have a small background in design, nothing extravagant really, I just have an eye for making things look decent. It was nice however to get a touch up on design <abbr title='Contrast, Repitition, Alignment, Proximity'>CRAP</abbr> as there is always room for improvement. One thing I felt was especially important was focusing on usablity, making sure that a site was workable and readable over looking nice. I know I've been guilty of that in the past and it is a mistake I won't be repeating any time soon. I'm looking forward to talking about fonts. I have very strong opinions about fonts and the weight they have in design. All in all this was a great week and I'm really excited to see where the rest of the bootcamp takes me!"
         },
-        "week_four_post": {
+        {
             "title": "Week Four",
             "date": "September 09, 2019",
             "content": "This is the last week of the pre-work, hard to believe it's already here. This past week involved four seperate Javascript projects: a image gallery, a countdown timer, a digital clock, and a mind reader. You can see all of these projects <a href='projects.html'>here.</a> My biggest gripe with these projects was with the image gallery, namely that the guidelines were rather poorly written. I would have preferred if we were asked to start from scratch rather than use pre-existing code. Other than that things were pretty smooth. Knowing how to use breakpoints was very helpful with figuring out what was going wrong, as well as using <code>console.log()</code> to show my results and fix any problems I was having. All in all I'm really excited to be starting on Monday."
         },
-        "week_three_post": {
+        {
             "title": "Week Three",
             "date": "September 8, 2019",
             "content": "This has been quite the week. We started on Javascript and created our first project, a silly story generator (linked under projects). This one turned out to be a lot more difficult than I thought, but for entirely the wrong reason. I had my code written out and it was all functioning perfectly except for the very end of the function, which was supposed to turn the text visible, but wasn't. I spent hours racking my brain against this only to discover after taking it to the bootcamp, it was just a miss-spelling of the word 'visiblity'. Needless to say I was relieved to finally get it fixed. After playing with Javascript for a little, I can say it has what feels like it offers an endless ammount of customizations to websites, and I look forward to trying it out and seeing what I can do with it!"
         },
-        "week_two_post": {
+        {
             "title": "Week Two",
             "date": "September 1, 2019",
             "content": "This week will be focused on the discussion of Psuedo code. To be honest, I'm not a big fan of this format. I see the reasoning behind it as well as its uses, but it feels somewhat redundant to me. I feel if that we're going to write out code in a readable format, it shoulod be more shorthand rather than detailing the step-by-step methods of writing it. I suppose the most difficult part for me with the whole thing is the fact that I can't test out whether or not it even works, which means any mistake I made while writing will stay there with me unable to know until much further down the line. I know that flowcharts are an alternative to this that while more resource intensive are more interesting to me. I'm really excited to move onto Javascript, simply so I can fiddle around with it on my blog. I have a few ideas that I think Javascript can help me implmement. Not too much else to report for this week, as technically this week and last week are the same week, since we only created the blog into week 2. More to follow soon!"
         },
-        "week_one_post": {
+        {
             "title": "Week One",
             "date": "August 30, 2019",
             "content": "Well that's one week down! With that first week behind me for assignments I can safely say I'm excited to see where this program is going to lead me. The pre-work is a lot more interactive than what I was expecting, which is good. I really enjoy the stand-up sessions we have, simply because it helps me pace out where I should be and get any help I need with the assignments. I'm still struggling with CSS at the moment, mainly with just the cascading element to it. With time -and practice- I'm sure I can get it down. This blog is going to be great help with that. I'm really excited to dive into javascript. I've never done too much with it, and even then that was quite a while ago, and I know it has so much potential to change how sites function. All in all I'm really excited to see where the bootcamp goes and what it leads to in the future!"
         }
-    }
+    ]
 }
